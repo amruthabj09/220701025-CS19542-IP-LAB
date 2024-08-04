@@ -1,0 +1,125 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #0073b1; /* Blue background */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.resume {
+    width: 80%;
+    background: #fff;
+    padding:  40px 20px 20px 20px;;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+header {
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+}
+
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.profile-pic {
+    flex: 0 0 auto; /* Ensures the image size is not affected by flexbox */
+    margin-left: 20px; /* Space between picture and contact info */
+}
+.profile-pic img {
+    padding-right: 50px;
+
+    width: 170px; /* Adjust size as needed */
+    height: 170px; /* Adju size as needed */
+    object-fit: cover;
+    padding-top: 900px; /* Ensures the image scales properly */
+}
+
+
+.contact-info {
+    text-align: left;
+    padding-top: 900px;
+    padding-left: 20px;
+}
+
+.contact-info h1 {
+    margin: 0;
+    font-size: 2.5em;
+    color: #333;
+}
+
+.contact-info p {
+    margin: 5px 0;
+    color: #666;
+}
+
+.contact-info a {
+    color: #0073b1;
+    text-decoration: none;
+}
+
+.contact-info a:hover {
+    text-decoration: underline;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+section h2 {
+    border-bottom: 2px solid #0073b1;
+    padding-bottom: 5px;
+    color: #0073b1;
+    margin-bottom: 10px;
+}
+
+section table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 10px;
+    border: 2px solid #000; /* Thick border */
+}
+
+section table th, section table td {
+    border: 2px solid #000; /* Thick border */
+    padding: 10px;
+    text-align: left;
+}
+
+section table th {
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+section table td {
+    background-color: #fff;
+}
+
+section ul {
+    list-style-type: disc;
+    padding-left: 20px;
+    text-align: left;
+}
+
+section ul li {
+    margin: 5px 0;
+}
+
+.summary, .skills, .projects {
+    background-color: #fafafa;
+    padding: 15px;
+    border-radius: 8px;
+}
+
+.summary p, .skills ul, .projects table {
+    margin: 0;
+}
