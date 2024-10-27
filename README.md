@@ -2,7 +2,7 @@ Here's a `README.md` file for the Tourism Management System project setup.
 
 ---
 
-# Tourism Management System
+# TourMate
 
 This project is a Tourism Management System built using PHP and MySQL. Follow the steps below to set up the system on your local machine.
 
